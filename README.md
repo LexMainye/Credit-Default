@@ -5,6 +5,9 @@ This project aims to predict credit payment defaults using machine learning tech
 # Objective
 The main objective is to build a predictive model that can classify whether a customer will default on a payment in the upcoming period. The dataset used contains detailed information about past payment behaviors, including the amount paid, payment dates, and any late payments.
 
+# Link to the Dataset used : https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+Libraries used : pandas,numpy,seaborn,sklearn,
+
  # Dataset Description
 The dataset includes the following features :
 1. Customer ID: Unique identifier for each customer
@@ -31,16 +34,9 @@ The dataset includes the following features :
 - Introducing statistical features (mean, median, variance) of payment patterns.
 
 # Model Building
+Used classification algorithms such as Random Forest where the  decision tree used predicts whether a loan will default or not.
 
-# Using classification algorithms such as:
-- Random Forest
-- XGBoost
-- Evaluation
-
-- Evaluating model performance using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
-- Comparing model results to select the best-performing model for deployment.
-- Model Interpretation
 
 # Results:
-The best-performing model showed an with an AUC of 0.75, the model has moderate predictive power.
+The best-performing model showed an with an AUC of 0.75, showing the model has moderate predictive power.
 
